@@ -1,0 +1,17 @@
+.index {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.index table {
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  max-width: 95%;
+  width: 90%;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.index table thead {
+  background-color: #ddd;
+}

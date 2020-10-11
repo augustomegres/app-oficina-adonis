@@ -1,0 +1,43 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #2e2e2e;
+}
+
+.sidebar .title {
+  display: flex;
+  margin: 24px 0 24px 16px;
+}
+
+.sidebar .title h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.sidebar .title img {
+  height: 20px;
+  margin-right: 18px;
+  height: 32px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li img {
+  height: 20px;
+  margin-right: 18px;
+}
+
+.sidebar ul li {
+  padding: 8px 16px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #ffffff;
+}
