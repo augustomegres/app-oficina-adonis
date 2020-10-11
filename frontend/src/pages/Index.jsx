@@ -11,19 +11,19 @@ export default class Index extends React.Component {
           <div class="tile is-vertical is-8">
             <div class="tile">
               <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-primary">
-                  <p class="title">Vertical...</p>
-                  <p class="subtitle">Top tile</p>
+                <article class="tile is-child notification">
+                  <p class="title">Bloco 1</p>
+                  <p class="subtitle">Texto / Info</p>
                 </article>
-                <article class="tile is-child notification is-warning">
-                  <p class="title">...tiles</p>
-                  <p class="subtitle">Bottom tile</p>
+                <article class="tile is-child notification">
+                  <p class="title">Bloco 2</p>
+                  <p class="subtitle">Texto / Info</p>
                 </article>
               </div>
               <div class="tile is-parent">
-                <article class="tile is-child notification is-info">
-                  <p class="title">Middle tile</p>
-                  <p class="subtitle">With an image</p>
+                <article class="tile is-child notification">
+                  <p class="title">Bloco com gráfico pequeno</p>
+                  <p class="subtitle">Gráfico</p>
                   <figure class="image is-4by3">
                     <img src="https://bulma.io/images/placeholders/640x480.png" />
                   </figure>
@@ -31,18 +31,18 @@ export default class Index extends React.Component {
               </div>
             </div>
             <div class="tile is-parent">
-              <article class="tile is-child notification is-danger">
-                <p class="title">Wide tile</p>
-                <p class="subtitle">Aligned with the right tile</p>
+              <article class="tile is-child notification">
+                <p class="title">Bloco com gráfico grande</p>
+                <p class="subtitle">Gráfico gigante</p>
                 <div class="content"></div>
               </article>
             </div>
           </div>
           <div class="tile is-parent">
-            <article class="tile is-child notification is-success">
+            <article class="tile is-child notification">
               <div class="content">
-                <p class="title">Tall tile</p>
-                <p class="subtitle">With even more content</p>
+                <p class="title">Bloco com log de resumo</p>
+                <p class="subtitle">Lista com resumo</p>
                 <div class="content"></div>
               </div>
             </article>
